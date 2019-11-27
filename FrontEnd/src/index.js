@@ -5,6 +5,7 @@ import App from './App';
 import Sobre from './Sobre';
 import NaoEncontrada from './NaoEncontrada';
 import ExemplosComponents from './ExemplosComponents';
+import RequestHttp from './RequestHttp/RequestHttp'
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom' // importando o BrowserRouter do pacote react-router-dom (npm install --save react-router-dom)
 
@@ -14,6 +15,7 @@ ReactDOM.render(
             <Route path="/" exact={true} component={App} />
 			<Route path="/exemplos" component={ExemplosComponents} />
 			<Route path="/sobre" component={Sobre} />
+			<Route path="/request-http" component={RequestHttp} />
 			<Route path='*' component={NaoEncontrada} /> 
 			{/*
 				Uma outra parada legal do path, é que se passarmos um Route com o path sendo um * 

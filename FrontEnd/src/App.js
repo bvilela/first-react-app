@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import ExemplosComponents from './ExemplosComponents'
 import { Link } from 'react-router-dom'
 import Button from '@material-ui/core/Button';
 
@@ -14,7 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
 		  <Button component={ Link } to="/sobre" variant="contained" color="primary" className="mr-40"> Sobre </Button>
-		  <Button component={ Link } to="/exemplos" variant="contained" color="primary"> Exemplos </Button>
+		  <Button component={ Link } to="/exemplos" variant="contained" color="primary" className="mr-40"> Exemplos </Button>
+		  <Button component={ Link } to="/request-http" variant="contained" color="primary"> Exemplos </Button>
 		  <br/>
 		  <br/>
 		  <br/>
