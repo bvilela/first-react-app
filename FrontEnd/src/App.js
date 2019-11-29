@@ -14,7 +14,8 @@ function App() {
         <p>
 		  <Button component={ Link } to="/sobre" variant="contained" color="primary" className="mr-40"> Sobre </Button>
 		  <Button component={ Link } to="/exemplos" variant="contained" color="primary" className="mr-40"> Exemplos </Button>
-		  <Button component={ Link } to="/request-http" variant="contained" color="primary"> Exemplos </Button>
+      {/*<Button component={ Link } to="/request-http" variant="contained" color="primary"> Exemplos </Button>*/}
+      <Button component={ Link } to="/login" variant="contained" color="primary" className="mr-40"> Tela Login </Button>
 		  <br/>
 		  <br/>
 		  <br/>
